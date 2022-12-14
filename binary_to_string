@@ -1,0 +1,14 @@
+def BinarytoDecimal(binary):
+    string = int(binary, 36)
+    return string
+
+bin_data = input("Enter the binary code")
+print("binary value is:",bin_data)
+
+str_data = ""
+
+for i in range(0, len(bin_data), 9):
+    temp_data = bin_data[i:i + 9]
+    decimal_data = BinarytoDecimal(temp_data)
+    str_data = str_data + chr(decimal_data)
+print("the binary value as string is:",str_data)    
