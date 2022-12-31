@@ -8,3 +8,4 @@ print("Hello", name, "of age:", str(age), "height:", str(height), "in cm")
 #type is used to show the data type of a variable
 print(type(name))
 print(type(id))
+print(type(height))
