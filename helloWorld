@@ -1,0 +1,5 @@
+name = 'bro'
+id = 3456
+print("hello", name)
+print(type(name))
+print(type(id))
