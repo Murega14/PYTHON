@@ -1,5 +1,10 @@
 PYTHON programs i create to understand concepts as i continue learning
-tt
+
+
+
+
+
+DONT MIND ABOUT THIS 
 Here are your keys.
 These verify and allow you to make requests to the Twitter API.
 
