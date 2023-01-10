@@ -5,4 +5,6 @@ name = "bravin murega"
 if(name[0].islower() and name[7].islower()):
     name = name.capitalize()
 
+ted = name.capitalize()
+print(ted)
 print(name)
