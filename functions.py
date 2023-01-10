@@ -1,7 +1,6 @@
 # a function is a block of code thats executed only when its called
 
-def hello(name):
-    print("Hello", name)
+def hello(first_name, last_name, age):
+    print("hello "+first_name + " "+last_name+" you are "+str(age)+" years old.")
 
-name = "Bravin"
-hello(name)
+hello("Bravin", "Murega", 21)
