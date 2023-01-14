@@ -2,6 +2,7 @@
 #useful so that a function can accept multiple arguments
 #name args isnt as important as the asterist(*)
 
+    
 def add(*stuff):
     sum = 0
     stuff = list(stuff)
@@ -10,4 +11,4 @@ def add(*stuff):
         sum += i
     return sum
 
-print(add(99, 66, 43, 25, 99))
+print(add(99,887,6567))
