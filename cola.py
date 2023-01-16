@@ -73,7 +73,7 @@ options = [["A. Guido Van Rossum", "B. God", "C. Linus Torvald"],
 
 new_game()
 
-while play_again():
+while play_againa():
     new_game()
 
 
