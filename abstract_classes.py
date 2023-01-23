@@ -22,5 +22,6 @@ class Motorcycle(Vehicle):
 car = Car()
 motorcycle = Motorcycle()
 
+
 car.go()
 motorcycle.go()
