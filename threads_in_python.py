@@ -10,15 +10,15 @@ import time
 
 def eat_breakfast():
     time.sleep(3)
-    print("you're done")
+    print("you're done eating breakfast")
 
 def drink_coffee():
     time.sleep(4)
-    print("done")
+    print("done drinking coffee")
 
 def study():
     time.sleep(6)
-    print("done")
+    print("done studying")
 
 x = threading.Thread(target=eat_breakfast, args=())
 x.start()
