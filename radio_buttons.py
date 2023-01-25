@@ -16,6 +16,7 @@ def order():
 window = Tk()
 window.geometry("750x484")
 #style = Style()
+#style.configure('TButton', font=('calibri', 14, "bold"), borderwidth = '4')
 
 
 pizzaimage = PhotoImage(file='pizza-weird.gif')
@@ -30,7 +31,6 @@ for index in range(len(food)):
                              text=food[index],
                              variable=x,
                              value=index,
-                             padx=25,
                              font=("arial",15),
                              image=foodimages[index],
                              compound= LEFT,
