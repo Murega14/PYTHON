@@ -6,14 +6,14 @@ def submit():
 window = Tk()
 
 hotimage = PhotoImage(file='flame.gif')
-hotlabel = Label(image=hotimage)
+hotlabel = Label(image=hotimage,compound=LEFT)
 hotlabel.pack()
 
 scale = Scale(window,
             from_=100,
             to=0,
             length=300,
-            orient=VERTICAL,
+            orient=HORIZONTAL,
             font=('Arial', 14),
             tickinterval = 10,
             showvalue=0,
@@ -24,10 +24,10 @@ scale = Scale(window,
 scale.pack()
 
 coldimage = PhotoImage(file='snowflake.gif')
-coldlabel = Label(image=coldimage)
+coldlabel = Label(image=coldimage, compound=RIGHT)
 coldlabel.pack()
 
-button = Button(window, text='submit',command=submit)
+button = Button(window, text='submit',command=submit, compound=BOTTOM)
 button.pack()
 
 window.mainloop()
