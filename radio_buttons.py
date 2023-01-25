@@ -2,9 +2,20 @@ from tkinter import *
 
 food = ["pizza", "hamburger", "hotdog"]
 
+def order():
+    if(x.get() == 0):
+      print("you ordered pizza")
+    elif(x.get() == 1):
+        print("you ordered a hamburger")  
+    elif(x.get() == 2):
+        print("you ordered a hotdog")
+    else:
+        print("huh")
+
+
 window = Tk()
 window.geometry("750x484")
-style = Style()
+#style = Style()
 
 
 pizzaimage = PhotoImage(file='pizza-weird.gif')
@@ -25,6 +36,7 @@ for index in range(len(food)):
                              compound= LEFT,
                              indicatoron=0,
                              width=375,
+                             command=order
                              )
     radiobuttton.pack(anchor=W,padx=15,pady=20)
 
