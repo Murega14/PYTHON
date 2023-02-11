@@ -35,7 +35,7 @@ def delete():
 def backspace():
     entry.delete(len(entry.get()) -1, END)
 
-photo = PhotoImage(file='/home/nyaweed/PYTHON/hehe_max_reasonably_small.gif')
+photo = PhotoImage(file='/home/muregz/PYTHON/hehe_max_reasonably_small.gif')
 logo = PhotoImage(file='hehe_max_reasonably_small.gif')
 
 label = Label(window,
