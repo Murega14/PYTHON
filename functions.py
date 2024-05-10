@@ -1,6 +1,9 @@
 # a function is a block of code thats executed only when its called
 
-def hello(first_name, last_name, age):
-    print("hello "+first_name + " "+last_name+" you are "+str(age)+" years old.")
+#imagine you want to calculate your daily spend
+def daily_spending(transport, food, miscal):
 
-hello("Bravin", "Murega", 21)
+    return transport + food + miscal
+
+#call the function while defining the parameters
+print(daily_spending(200, 200, 500))
